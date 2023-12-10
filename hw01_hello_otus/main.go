@@ -1,4 +1,4 @@
-package hw01frequencyanalysis
+package main
 
 import (
 	"fmt"
