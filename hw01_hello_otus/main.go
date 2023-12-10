@@ -1,7 +1,8 @@
-package main
+package hw01frequencyanalysis
 
 import (
 	"fmt"
+
 	"golang.org/x/example/hello/reverse"
 )
 
