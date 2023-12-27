@@ -45,6 +45,10 @@ func Unpack(s string) (string, error) {
 		}
 	}
 
+	if isEscaped {
+		return "", ErrInvalidString
+	}
+
 	if previous != 0 {
 		result.WriteRune(previous)
 	}
